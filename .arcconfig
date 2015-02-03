@@ -1,0 +1,5 @@
+{
+  "project.name" : "Drupal 7 Demo",
+  "phabricator.uri" : "http://www.phabricator.dev/",
+  "unit.engine": "PhpunitTestEngine"
+}

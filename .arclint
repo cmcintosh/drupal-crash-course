@@ -1,0 +1,10 @@
+{
+  "linters": {
+    "PHP_CodeSniffer": {
+      "type": "phpcs"
+    },
+    "PHP Errors" : {
+      "type": "php"
+    }
+  }
+}
