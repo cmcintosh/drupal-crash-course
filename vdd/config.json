@@ -1,0 +1,35 @@
+{
+  "vm": {
+    "ip": "192.168.99.99",
+    "memory": "1024",
+    "synced_folders": [
+      {
+        "host_path": "../docroot",
+        "guest_path": "/var/www/docroot",
+        "type": "default"
+      },
+      {
+        "host_path": "../scripts",
+        "guest_path": "/var/scripts",
+        "type": "default"
+      }
+    ],
+    "forwarded_ports": []
+  },
+  "vdd": {
+    "sites": {
+      "drupal7": {
+        "account_name": "root",
+        "account_pass": "root",
+        "account_mail": "box@example.com",
+        "site_name": "Drupal 7",
+        "site_mail": "box@example.com",
+        "vhost": {
+          "document_root": "docroot",
+          "url": "drupal7.dev",
+          "alias": ["www.drupal7.dev"]
+        }
+      }
+    }
+  }
+}
